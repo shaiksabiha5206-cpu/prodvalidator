@@ -1,0 +1,13 @@
+pyproject.toml
+src/validator/__init__.py
+src/validator/logger.py
+src/validator/main.py
+src/validator/modules.py
+src/validator/process.py
+src/validator.egg-info/PKG-INFO
+src/validator.egg-info/SOURCES.txt
+src/validator.egg-info/dependency_links.txt
+src/validator.egg-info/requires.txt
+src/validator.egg-info/top_level.txt
+tests/test_models.py
+tests/test_processor.py

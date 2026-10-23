@@ -1,0 +1,7 @@
+Metadata-Version: 2.4
+Name: validator
+Version: 0.1.0
+Summary: Production validator - Week 1 project
+Requires-Python: >=3.10
+Requires-Dist: pydantic
+Requires-Dist: python-dotenv

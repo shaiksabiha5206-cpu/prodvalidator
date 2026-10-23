@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "validator"
+version = "0.1.0"
+description = "Production validator - Week 1 project"
+requires-python = ">=3.10"
+dependencies = [
+    "pydantic",
+    "python-dotenv"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
